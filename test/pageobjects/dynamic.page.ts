@@ -6,7 +6,10 @@ class DynamicPage extends Page {
      */
     get btnStart () { return $('button=Start') }
     get loadedPage () { return $('#finish') }
-
+    
+    screenShot (path: string) {
+        return browser.saveScreenshot(path)
+    }
     /**
      * define or overwrite page methods
      */

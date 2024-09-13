@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "@types/jasmine": "^5.1.4",
+    "@wdio/allure-reporter": "^9.0.8",
     "@wdio/cli": "9.0.9",
     "@wdio/globals": "9.0.9",
     "@wdio/jasmine-framework": "9.0.9",
